@@ -1,0 +1,37 @@
+body{
+  background: url(pexels-pixabay-417192.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#container{
+  display: flex;
+  /* flex-wrap: nowrap; */
+  flex-direction: column;
+  align-content: stretch;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 190px 1px;
+}
+#city_input{
+  height: 2rem;
+  width: 20rem;
+  border-radius: 15px;
+}
+#search{
+  height: 2.4rem;
+  width: 5rem;
+  border-radius: 15px;
+
+}
+h1{
+  color: white;
+  /* background: px 2px blue; */
+  text-shadow: 4px 4px  rgba(0, 0, 0, 0.5);
+
+}
+#city_temp{
+  padding: 10px 1px;
+  font-size: 70px; 
+}
